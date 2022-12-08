@@ -460,279 +460,279 @@ almalinux9-dbg: binaries/proxysql-${CURVER}-1-almalinux9-dbg.x86_64.rpm
 
 
 binaries/proxysql-${CURVER}-1-centos6.x86_64.rpm:
-	docker-compose up centos6_build
-	docker-compose rm -f
+	docker compose up centos6_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-centos6.x86_64.rpm:
-	docker-compose up centos6_dbg_build
-	docker-compose rm -f
+	docker compose up centos6_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-centos7.x86_64.rpm:
-	docker-compose up centos7_build
-	docker-compose rm -f
+	docker compose up centos7_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-centos7.aarch64.rpm:
-	docker-compose up centos7_build
-	docker-compose rm -f
+	docker compose up centos7_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-centos7.x86_64.rpm:
-	docker-compose up centos7_dbg_build
-	docker-compose rm -f
+	docker compose up centos7_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-centos8.x86_64.rpm:
-	docker-compose up centos8_build
-	docker-compose rm -f
+	docker compose up centos8_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-centos8-clang.x86_64.rpm:
-	docker-compose up centos8_clang_build
-	docker-compose rm -f
+	docker compose up centos8_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-centos8.aarch64.rpm:
-	docker-compose up centos8_build
-	docker-compose rm -f
+	docker compose up centos8_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-centos8.x86_64.rpm:
-	docker-compose up centos8_dbg_build
-	docker-compose rm -f
+	docker compose up centos8_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-dbg-fedora27.x86_64.rpm:
-	docker-compose up fedora27_dbg_build
-	docker-compose rm -f
+	docker compose up fedora27_dbg_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora27.x86_64.rpm:
-	docker-compose up fedora27_build
-	docker-compose rm -f
+	docker compose up fedora27_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-fedora28.x86_64.rpm:
-	docker-compose up fedora28_build
-	docker-compose rm -f
+	docker compose up fedora28_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-fedora28.x86_64.rpm:
-	docker-compose up fedora28_dbg_build
-	docker-compose rm -f
+	docker compose up fedora28_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-fedora33.x86_64.rpm:
-	docker-compose up fedora33_build
-	docker-compose rm -f
+	docker compose up fedora33_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-fedora33.x86_64.rpm:
-	docker-compose up fedora33_dbg_build
-	docker-compose rm -f
+	docker compose up fedora33_dbg_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora33.aarch64.rpm:
-	docker-compose up fedora33_build
-	docker-compose rm -f
+	docker compose up fedora33_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-fedora34.x86_64.rpm:
-	docker-compose up fedora34_build
-	docker-compose rm -f
+	docker compose up fedora34_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora34.aarch64.rpm:
-	docker-compose up fedora34_build
-	docker-compose rm -f
+	docker compose up fedora34_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora34-clang.x86_64.rpm:
-	docker-compose up fedora34_clang_build
-	docker-compose rm -f
+	docker compose up fedora34_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-fedora34.x86_64.rpm:
-	docker-compose up fedora34_dbg_build
-	docker-compose rm -f
+	docker compose up fedora34_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-fedora36.x86_64.rpm:
-	docker-compose up fedora36_build
-	docker-compose rm -f
+	docker compose up fedora36_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora36.aarch64.rpm:
-	docker-compose up fedora36_build
-	docker-compose rm -f
+	docker compose up fedora36_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-fedora36-clang.x86_64.rpm:
-	docker-compose up fedora36_clang_build
-	docker-compose rm -f
+	docker compose up fedora36_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-dbg-fedora36.x86_64.rpm:
-	docker-compose up fedora36_dbg_build
-	docker-compose rm -f
+	docker compose up fedora36_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-ubuntu14_amd64.deb:
-	docker-compose up ubuntu14_build
-	docker-compose rm -f
+	docker compose up ubuntu14_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-ubuntu14_amd64.deb:
-	docker-compose up ubuntu14_dbg_build
-	docker-compose rm -f
+	docker compose up ubuntu14_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-ubuntu16_amd64.deb:
-	docker-compose up ubuntu16_build
-	docker-compose rm -f
+	docker compose up ubuntu16_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu16_arm64.deb:
-	docker-compose up ubuntu16_build
-	docker-compose rm -f
+	docker compose up ubuntu16_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-ubuntu16_amd64.deb:
-	docker-compose up ubuntu16_dbg_build
-	docker-compose rm -f
+	docker compose up ubuntu16_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-ubuntu18_amd64.deb:
-	docker-compose up ubuntu18_build
-	docker-compose rm -f
+	docker compose up ubuntu18_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-ubuntu18_amd64.deb:
-	docker-compose up ubuntu18_dbg_build
-	docker-compose rm -f
+	docker compose up ubuntu18_dbg_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu18_arm64.deb:
-	docker-compose up ubuntu18_build
-	docker-compose rm -f
+	docker compose up ubuntu18_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-dbg-ubuntu20_amd64.deb:
-	docker-compose up ubuntu20_dbg_build
-	docker-compose rm -f
+	docker compose up ubuntu20_dbg_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu20_amd64.deb:
-	docker-compose up ubuntu20_build
-	docker-compose rm -f
+	docker compose up ubuntu20_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu20-clang_amd64.deb:
-	docker-compose up ubuntu20_clang_build
-	docker-compose rm -f
+	docker compose up ubuntu20_clang_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu20_arm64.deb:
-	docker-compose up ubuntu20_build
-	docker-compose rm -f
+	docker compose up ubuntu20_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-dbg-ubuntu22_amd64.deb:
-	docker-compose up ubuntu22_dbg_build
-	docker-compose rm -f
+	docker compose up ubuntu22_dbg_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu22_amd64.deb:
-	docker-compose up ubuntu22_build
-	docker-compose rm -f
+	docker compose up ubuntu22_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu22-clang_amd64.deb:
-	docker-compose up ubuntu22_clang_build
-	docker-compose rm -f
+	docker compose up ubuntu22_clang_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-ubuntu22_arm64.deb:
-	docker-compose up ubuntu22_build
-	docker-compose rm -f
+	docker compose up ubuntu22_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-debian8_amd64.deb:
-	docker-compose up debian8_build
-	docker-compose rm -f
+	docker compose up debian8_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-debian8_amd64.deb:
-	docker-compose up debian8_dbg_build
-	docker-compose rm -f
+	docker compose up debian8_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-debian9_amd64.deb:
-	docker-compose up debian9_build
-	docker-compose rm -f
+	docker compose up debian9_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-debian9_amd64.deb:
-	docker-compose up debian9_dbg_build
-	docker-compose rm -f
+	docker compose up debian9_dbg_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-debian9_arm64.deb:
-	docker-compose up debian9_build
-	docker-compose rm -f
+	docker compose up debian9_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-debian10_amd64.deb:
-	docker-compose up debian10_build
-	docker-compose rm -f
+	docker compose up debian10_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-debian10_arm64.deb:
-	docker-compose up debian10_build
-	docker-compose rm -f
+	docker compose up debian10_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-debian10_amd64.deb:
-	docker-compose up debian10_dbg_build
-	docker-compose rm -f
+	docker compose up debian10_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql_${CURVER}-debian11_amd64.deb:
-	docker-compose up debian11_build
-	docker-compose rm -f
+	docker compose up debian11_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-debian11-clang_amd64.deb:
-	docker-compose up debian11_clang_build
-	docker-compose rm -f
+	docker compose up debian11_clang_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-debian11_arm64.deb:
-	docker-compose up debian11_build
-	docker-compose rm -f
+	docker compose up debian11_build
+	docker compose rm -f
 
 binaries/proxysql_${CURVER}-dbg-debian11_amd64.deb:
-	docker-compose up debian11_dbg_build
-	docker-compose rm -f
+	docker compose up debian11_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-opensuse15.x86_64.rpm:
-	docker-compose up opensuse15_build
-	docker-compose rm -f
+	docker compose up opensuse15_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-opensuse15.aarch64.rpm:
-	docker-compose up opensuse15_build
-	docker-compose rm -f
+	docker compose up opensuse15_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-opensuse15-clang.x86_64.rpm:
-	docker-compose up opensuse15_clang_build
-	docker-compose rm -f
+	docker compose up opensuse15_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-opensuse15-dbg.x86_64.rpm:
-	docker-compose up opensuse15_dbg_build
-	docker-compose rm -f
+	docker compose up opensuse15_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-almalinux8.x86_64.rpm:
-	docker-compose up almalinux8_build
-	docker-compose rm -f
+	docker compose up almalinux8_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux8.aarch64.rpm:
-	docker-compose up almalinux8_build
-	docker-compose rm -f
+	docker compose up almalinux8_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux8-clang.x86_64.rpm:
-	docker-compose up almalinux8_clang_build
-	docker-compose rm -f
+	docker compose up almalinux8_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux8-dbg.x86_64.rpm:
-	docker-compose up almalinux8_dbg_build
-	docker-compose rm -f
+	docker compose up almalinux8_dbg_build
+	docker compose rm -f
 
 
 binaries/proxysql-${CURVER}-1-almalinux9.x86_64.rpm:
-	docker-compose up almalinux9_build
-	docker-compose rm -f
+	docker compose up almalinux9_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux9.aarch64.rpm:
-	docker-compose up almalinux9_build
-	docker-compose rm -f
+	docker compose up almalinux9_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux9-clang.x86_64.rpm:
-	docker-compose up almalinux9_clang_build
-	docker-compose rm -f
+	docker compose up almalinux9_clang_build
+	docker compose rm -f
 
 binaries/proxysql-${CURVER}-1-almalinux9-dbg.x86_64.rpm:
-	docker-compose up almalinux9_dbg_build
-	docker-compose rm -f
+	docker compose up almalinux9_dbg_build
+	docker compose rm -f
 
 
 

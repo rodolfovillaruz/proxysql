@@ -515,7 +515,7 @@ class DockerFleet(object):
 		that backend needs to expose its MySQL port to the outside through
 		docker compose's port mapping mechanism.
 
-		This will actually parse the docker-compose configuration file to
+		This will actually parse the docker compose configuration file to
 		retrieve the available backends and hostgroups and will pick a backend
 		from the specified hostgroup."""
 
